@@ -1,10 +1,22 @@
+
 ion-content{
+  
   text-align: center;
   --padding-top: 24px;
   --padding-start: 24px;
   --padding-end: 24px;
+  --background: #ffff00 url('../../assets/img/gif2.gif') no-repeat center center / cover !important;
+  --color: white;
 }
 
 ion-item{
+ 
+  --border: white;
+  --background: black;
+  --color: white;
   margin: 16px 0;
+}
+
+ion-button{
+  --background: gray;
 }
